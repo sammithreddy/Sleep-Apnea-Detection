@@ -898,3 +898,11 @@ INFO:     Waiting for application startup.
 INFO:     Application startup complete.
 INFO:     127.0.0.1:50288 - "GET /history HTTP/1.1" 200 OK
 INFO:     127.0.0.1:50288 - "GET /history HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7477]
+INFO:     Started server process [8272]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.

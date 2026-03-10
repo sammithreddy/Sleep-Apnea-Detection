@@ -36,7 +36,8 @@ const UploadECG = () => {
     formData.append("header", heaFile);
 
     try {
-      const baseUrl = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+      const apiBaseUrl = import.meta.env.VITE_API_BASE_URL || "http://127.0.0.1:8000";
+      const baseUrl = apiBaseUrl.endsWith("/") ? apiBaseUrl.slice(0, -1) : apiBaseUrl;
       const response = await axios.post(`${baseUrl}/process_ecg/`, formData);
       const data = response.data;
 
