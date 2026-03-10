@@ -6,8 +6,8 @@ function AppNavbar() {
   return (
     <Navbar bg="dark" variant="dark" expand="lg" className="py-3 sticky-top" style={{ backdropFilter: "blur(10px)", background: "rgba(33, 37, 41, 0.95)" }}>
       <Container>
-        <Navbar.Brand as={Link} to="/" style={{ fontSize: "1.5rem", fontWeight: "800", color: "#fff", letterSpacing: "-0.5px" }}>
-          <span style={{ color: "var(--primary)", marginRight: "8px" }}>🩺</span> 
+        <Navbar.Brand as={Link} to="/" style={{ fontSize: "1.5rem", fontWeight: "800", color: "#fff", letterSpacing: "-0.5px", display: "flex", alignItems: "center" }}>
+          <img src="/logo.png" alt="Logo" style={{ height: "40px", marginRight: "12px", borderRadius: "8px" }} />
           Apnea<span style={{ opacity: 0.8, fontWeight: 400 }}>Detect</span>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
