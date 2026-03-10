@@ -47,11 +47,11 @@ async def get_history():
             return json.load(f)
     return []
 
-# Enable CORS for frontend
+# Enable CORS for frontend - allow all for deployment flexibility
 app.add_middleware(
     CORSMiddleware,
     allow_origins=["*"],
-    allow_credentials=True,
+    allow_credentials=False, # Must be False if using "*" for origins
     allow_methods=["*"],
     allow_headers=["*"],
 )
@@ -59,8 +59,12 @@ app.add_middleware(
 UPLOAD_DIR = "uploads"
 os.makedirs(UPLOAD_DIR, exist_ok=True)
 
-# Load the highest performing model from our testing phase
-xgb_model = joblib.load("models/xgb_classifier.pkl")
+# Load the highest performing model
+try:
+    xgb_model = joblib.load("models/xgb_classifier.pkl")
+except Exception as e:
+    print(f"[CRITICAL] Failed to load model: {str(e)}")
+    xgb_model = None
 
 # Features used for training
 FEATURES = [
@@ -71,23 +75,20 @@ FEATURES = [
 
 def predict_model(feature_df):
     """Runs predictions using XGBoost model."""
+    if xgb_model is None:
+        raise Exception("ML Model not loaded on server.")
     sc = StandardScaler()
     feature_array = sc.fit_transform(feature_df)
-    
-    xgb_preds = xgb_model.predict(feature_array)
-    return xgb_preds
+    return xgb_model.predict(feature_array)
 
 @app.post("/process_ecg/")
 async def process_ecg(file: UploadFile = File(...), header: UploadFile = None):
     """API Endpoint for ECG processing."""
     try:
-        # Read files into memory
+        # 1. Read files into memory
         ecg_content = await file.read()
         
-        # Save to temporary file for wfdb/scipy compatibility if needed, 
-        # but try to use BytesIO where possible. 
-        # feature_extraction.read_ecg expects a file path.
-        # Let's write to a temp file safely.
+        # 2. Save to temporary files for compatibility
         temp_file_path = os.path.join(UPLOAD_DIR, f"temp_{file.filename}")
         with open(temp_file_path, "wb") as f:
             f.write(ecg_content)
@@ -99,39 +100,48 @@ async def process_ecg(file: UploadFile = File(...), header: UploadFile = None):
             with open(hea_temp_path, "wb") as f:
                 f.write(hea_content)
 
-        # Read ECG signal
-        ecg_signal = read_ecg(temp_file_path)
+        # 3. Read ECG signal
+        try:
+            ecg_signal = read_ecg(temp_file_path)
+        except Exception as read_err:
+            raise Exception(f"Failed to read ECG file: {str(read_err)}")
         
-        # Cleanup temp files immediately after reading into memory
-        os.remove(temp_file_path)
-        if hea_temp_path:
-            os.remove(hea_temp_path)
+        # 4. Cleanup temp files immediately
+        if os.path.exists(temp_file_path): os.remove(temp_file_path)
+        if hea_temp_path and os.path.exists(hea_temp_path): os.remove(hea_temp_path)
 
+        # 5. Process in segments
         segment_length = 6000  # 1-minute segments
         num_segments = len(ecg_signal) // segment_length
         
-        # Limit processing to prevent Render free-tier timeouts for very long files
-        MAX_SEGMENTS = 300 # Max 5 hours of data
+        if num_segments == 0:
+            raise Exception("File too short for analysis (minimum 1 minute required).")
+
+        # Limit segments to prevent timeouts
+        MAX_SEGMENTS = 120 # 2 hours max for stability
         num_segments = min(num_segments, MAX_SEGMENTS)
 
         all_features = []
         for i in range(num_segments):
             segment = ecg_signal[i * segment_length: (i + 1) * segment_length]
             features = extract_all_features(segment)
+            # Use 0 if feature extraction fails for a specific metric
             features_mapped = [features.get(feat, 0) for feat in FEATURES]
             all_features.append(features_mapped)
 
+        # 6. Predict
         feature_df = pd.DataFrame(all_features, columns=FEATURES)
         predictions = predict_model(feature_df)
 
+        # 7. Summarize
         apnea_count = sum(predictions)
-        ahi = (apnea_count / num_segments) * 60
+        ahi = float((apnea_count / num_segments) * 60)
         severity = classify_ahi(ahi)
         waveform_plot = plot_ecg(ecg_signal)
 
         result_content = {
             "filename": file.filename,
-            "AHI": float(ahi),
+            "AHI": ahi,
             "Severity": severity,
             "prediction_summary": {
                 "total_segments": int(num_segments),
@@ -145,8 +155,10 @@ async def process_ecg(file: UploadFile = File(...), header: UploadFile = None):
 
         return JSONResponse(content=result_content)
     except Exception as e:
-        print(f"[ERROR] Analysis failed: {str(e)}")
-        return JSONResponse(status_code=500, content={"error": "Analysis failed. The file might be too large or corrupted."})
+        # Critical for debugging: show exactly what failed
+        error_msg = str(e)
+        print(f"[ERROR] {error_msg}")
+        return JSONResponse(status_code=500, content={"error": error_msg})
 
 def classify_ahi(ahi):
     """Classifies severity based on AHI index."""
