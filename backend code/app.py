@@ -80,59 +80,54 @@ def predict_model(feature_df):
 @app.post("/process_ecg/")
 async def process_ecg(file: UploadFile = File(...), header: UploadFile = None):
     """API Endpoint for ECG processing."""
-    file_path = os.path.join(UPLOAD_DIR, file.filename)
-    with open(file_path, "wb") as f:
-        f.write(file.file.read())
-
-    hea_file_path = None
-    if file.filename.endswith(".dat"):
-        if not header:
-            return JSONResponse(status_code=400, content={"error": "A .hea file is required for .dat uploads!"})
-        hea_file_path = os.path.join(UPLOAD_DIR, header.filename)
-        with open(hea_file_path, "wb") as f:
-            f.write(header.file.read())
-
     try:
+        # Read files into memory
+        ecg_content = await file.read()
+        
+        # Save to temporary file for wfdb/scipy compatibility if needed, 
+        # but try to use BytesIO where possible. 
+        # feature_extraction.read_ecg expects a file path.
+        # Let's write to a temp file safely.
+        temp_file_path = os.path.join(UPLOAD_DIR, f"temp_{file.filename}")
+        with open(temp_file_path, "wb") as f:
+            f.write(ecg_content)
+        
+        hea_temp_path = None
+        if file.filename.endswith(".dat") and header:
+            hea_content = await header.read()
+            hea_temp_path = os.path.join(UPLOAD_DIR, f"temp_{header.filename}")
+            with open(hea_temp_path, "wb") as f:
+                f.write(hea_content)
+
         # Read ECG signal
-        ecg_signal = read_ecg(file_path)
-        print("ECG")
-        segment_length = 6000  # 1-minute segments (100 Hz)
+        ecg_signal = read_ecg(temp_file_path)
+        
+        # Cleanup temp files immediately after reading into memory
+        os.remove(temp_file_path)
+        if hea_temp_path:
+            os.remove(hea_temp_path)
+
+        segment_length = 6000  # 1-minute segments
         num_segments = len(ecg_signal) // segment_length
+        
+        # Limit processing to prevent Render free-tier timeouts for very long files
+        MAX_SEGMENTS = 300 # Max 5 hours of data
+        num_segments = min(num_segments, MAX_SEGMENTS)
 
         all_features = []
-        print(num_segments)
         for i in range(num_segments):
             segment = ecg_signal[i * segment_length: (i + 1) * segment_length]
             features = extract_all_features(segment)
-            try:
-                # Ensure keys map cleanly despite case sensitivity issues in original mapping
-                features_mapped = []
-                for feat in FEATURES:
-                   # Accommodate variations built into feature_extraction dict output
-                   mapping_val = features.get(feat, features.get("mean_R_Peak_Amplitudes"))
-                   features_mapped.append(mapping_val)
-                all_features.append(features_mapped)
-            except Exception as ex:
-                print("Error",ex)
+            features_mapped = [features.get(feat, 0) for feat in FEATURES]
+            all_features.append(features_mapped)
 
         feature_df = pd.DataFrame(all_features, columns=FEATURES)
-        # Apply XGBoost Predictor
         predictions = predict_model(feature_df)
 
-        # Compute AHI
         apnea_count = sum(predictions)
         ahi = (apnea_count / num_segments) * 60
-
-        # Determine severity
         severity = classify_ahi(ahi)
-
-        # Generate ECG waveform plot
         waveform_plot = plot_ecg(ecg_signal)
-
-        # Delete files after processing
-        os.remove(file_path)
-        if hea_file_path:
-            os.remove(hea_file_path)
 
         result_content = {
             "filename": file.filename,
@@ -145,15 +140,13 @@ async def process_ecg(file: UploadFile = File(...), header: UploadFile = None):
             }
         }
         
-        # Save to history (excluding the heavy waveform image)
         save_to_history(result_content)
-
-        # Add waveform for the immediate response
         result_content["ecg_waveform"] = waveform_plot
 
-        return JSONResponse(content=result_content, media_type="application/json")
+        return JSONResponse(content=result_content)
     except Exception as e:
-        return JSONResponse(status_code=500, content={"error": str(e)})
+        print(f"[ERROR] Analysis failed: {str(e)}")
+        return JSONResponse(status_code=500, content={"error": "Analysis failed. The file might be too large or corrupted."})
 
 def classify_ahi(ahi):
     """Classifies severity based on AHI index."""
