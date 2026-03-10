@@ -1,0 +1,900 @@
+INFO:     Will watch for changes in these directories: ['/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [7376] using StatReload
+INFO:     Started server process [7383]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:50091 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50091 - "GET /history HTTP/1.1" 200 OK
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+/Users/apple/Desktop/My Data/Sleep Apnea Detection/backend code/feature_extraction.py:109: UserWarning: 'where' used without 'out', expect unitialized memory in output. If this is intentional, use out=None.
+  pse = -np.sum(psd_normalized * np.log2(psd_normalized, where=psd_normalized > 0))
+[INFO] Reading ECG file: uploads/x24.dat (Format: .dat)
+[INFO] Found header file: uploads/x24.hea
+[DEBUG] DAT file loaded, shape: (2571000, 1)
+ECG
+428
+INFO:     127.0.0.1:50093 - "POST /process_ecg/ HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50089 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50089 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50089 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50089 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50103 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50103 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50145 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50145 - "GET /favicon.ico HTTP/1.1" 404 Not Found
+INFO:     127.0.0.1:50156 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50156 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50164 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50164 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50181 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50181 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50193 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50193 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50195 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50195 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50199 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50199 - "GET /history HTTP/1.1" 200 OK
+WARNING:  StatReload detected changes in 'app.py'. Reloading...
+INFO:     Shutting down
+INFO:     Waiting for application shutdown.
+INFO:     Application shutdown complete.
+INFO:     Finished server process [7383]
+INFO:     Started server process [7477]
+INFO:     Waiting for application startup.
+INFO:     Application startup complete.
+INFO:     127.0.0.1:50288 - "GET /history HTTP/1.1" 200 OK
+INFO:     127.0.0.1:50288 - "GET /history HTTP/1.1" 200 OK

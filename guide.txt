@@ -1,0 +1,67 @@
+# Sleep Apnea Detection Project Setup Guide
+
+This guide provides instructions to run the Sleep Apnea Detection project, which consists of a FastAPI backend and a React frontend.
+
+## 1. Database Setup
+The PhysioNet Apnea-ECG Database (v1.0.0) is already being downloaded to your project directory.
+The records will be located in the `physionet.org/files/apnea-ecg/1.0.0/` directory.
+
+## 2. Backend Setup
+The backend is built with FastAPI and uses machine learning and deep learning models to process ECG data.
+
+### Prerequisites
+Make sure you have Python 3.8+ installed.
+
+### Installation
+1. Open a terminal and navigate to the backend directory:
+   cd "backend code"
+2. Install the required Python packages:
+   pip install fastapi uvicorn python-multipart scikit-learn joblib tensorflow pandas numpy matplotlib wfdb neurokit2 scipy
+   
+### Running the Backend
+1. Start the FastAPI server using Uvicorn:
+   uvicorn app:app --reload --host 0.0.0.0 --port 8000
+2. The backend API will be available at: http://localhost:8000
+3. You can test the API endpoints using the Swagger UI at: http://localhost:8000/docs
+
+## 3. Frontend Setup
+The frontend is built with React and Bootstrap.
+
+### Prerequisites
+Make sure you have Node.js and npm installed.
+
+### Setup Process
+Since the provided frontend files contain only the `src` folder files (components, pages, App.js), you will need to create a React project and copy these files into it.
+
+1. Open a new terminal and navigate to the project root directory:
+   cd "/Users/apple/Desktop/My Data/Sleep Apnea Detection"
+2. Create a new React application:
+   npx create-react-app frontend
+3. Navigate into the newly created folder:
+   cd frontend
+4. Install the required dependencies:
+   npm install react-router-dom bootstrap axios
+5. Replace the auto-generated `src` folder with the provided frontend files:
+   - Delete the default `src` folder inside the `frontend` directory.
+   - Create a new `src` folder.
+   - Copy the contents of the "Frontend files inside src" folder into your new `src` folder.
+   - Note: make sure to keep or create an `index.js` file in your new `src` folder to render `App.js`. A standard `index.js` looks like this:
+     ```javascript
+     import React from 'react';
+     import ReactDOM from 'react-dom/client';
+     import App from './App';
+
+     const root = ReactDOM.createRoot(document.getElementById('root'));
+     root.render(<App />);
+     ```
+   
+### Running the Frontend
+1. Start the React development server:
+   npm start
+2. The application will be available at: http://localhost:3000
+
+## 4. Usage
+Once both the backend and frontend are running:
+1. Open http://localhost:3000 in your browser.
+2. Navigate to the analysis page and upload an ECG `.dat` file along with its corresponding `.hea` header file.
+3. The backend will process the files and use the models to predict the presence of sleep apnea. Results and an ECG waveform visualization will be shown on the frontend.
