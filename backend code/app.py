@@ -10,10 +10,9 @@ import base64
 import json
 from datetime import datetime
 from sklearn.preprocessing import StandardScaler
+import uuid
 from feature_extraction import extract_all_features, read_ecg
 from fastapi.middleware.cors import CORSMiddleware
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report
 
 app = FastAPI()
 
@@ -88,27 +87,57 @@ async def process_ecg(file: UploadFile = File(...), header: UploadFile = None):
         # 1. Read files into memory
         ecg_content = await file.read()
         
-        # 2. Save to temporary files for compatibility
-        temp_file_path = os.path.join(UPLOAD_DIR, f"temp_{file.filename}")
-        with open(temp_file_path, "wb") as f:
+        # 2. Save to unique subdirectory to maintain original filenames for wfdb
+        request_id = str(uuid.uuid4())
+        request_dir = os.path.join(UPLOAD_DIR, request_id)
+        os.makedirs(request_dir, exist_ok=True)
+        
+        # Save files temporarily
+        temp_dat_path = os.path.join(request_dir, file.filename)
+        with open(temp_dat_path, "wb") as f:
             f.write(ecg_content)
         
-        hea_temp_path = None
+        final_file_path = temp_dat_path
         if file.filename.endswith(".dat") and header:
             hea_content = await header.read()
-            hea_temp_path = os.path.join(UPLOAD_DIR, f"temp_{header.filename}")
-            with open(hea_temp_path, "wb") as f:
+            temp_hea_path = os.path.join(request_dir, header.filename)
+            with open(temp_hea_path, "wb") as f:
                 f.write(hea_content)
+            
+            # CRITICAL: wfdb expects the file names on disk to match the RECORD name inside the .hea file
+            # We must parse the .hea file to find the actual record name
+            try:
+                hea_lines = hea_content.decode("utf-8").splitlines()
+                if hea_lines:
+                    # First line format: [record_name] [num_signals] [fs] [num_samples]
+                    record_name = hea_lines[0].split()[0]
+                    print(f"[INFO] Parsed record name: {record_name}")
+                    
+                    # Rename files to match record_name
+                    new_hea_path = os.path.join(request_dir, f"{record_name}.hea")
+                    new_dat_path = os.path.join(request_dir, f"{record_name}.dat")
+                    
+                    if os.path.abspath(temp_hea_path) != os.path.abspath(new_hea_path):
+                        os.rename(temp_hea_path, new_hea_path)
+                    if os.path.abspath(temp_dat_path) != os.path.abspath(new_dat_path):
+                        os.rename(temp_dat_path, new_dat_path)
+                    
+                    final_file_path = new_dat_path
+            except Exception as e:
+                print(f"[WARNING] Failed to parse .hea file for record name: {str(e)}")
 
         # 3. Read ECG signal
         try:
-            ecg_signal = read_ecg(temp_file_path)
+            ecg_signal = read_ecg(final_file_path)
         except Exception as read_err:
+            # Cleanup on failure
+            import shutil
+            if os.path.exists(request_dir): shutil.rmtree(request_dir)
             raise Exception(f"Failed to read ECG file: {str(read_err)}")
         
-        # 4. Cleanup temp files immediately
-        if os.path.exists(temp_file_path): os.remove(temp_file_path)
-        if hea_temp_path and os.path.exists(hea_temp_path): os.remove(hea_temp_path)
+        # 4. Cleanup directory immediately after reading into memory
+        import shutil
+        if os.path.exists(request_dir): shutil.rmtree(request_dir)
 
         # 5. Process in segments
         segment_length = 6000  # 1-minute segments
